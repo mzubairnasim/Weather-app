@@ -1,0 +1,11 @@
+.bg{background-image: url(https://cdn.pixabay.com/photo/2019/09/06/00/32/landscape-4455224__340.jpg);
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background-size: cover;
+}
+.one{margin-left: 400px;}
+.cardone{box-shadow: 0 4px 8px gainsboro;margin: 10px;}
+.fone{display:flex;flex-wrap: wrap;margin: 20px;}
