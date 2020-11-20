@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Main() {
     const key='270afbc518467f7d9f0d40df7450164c'
@@ -60,7 +62,7 @@ export default function Main() {
     
 <div  className='row'>
     <div className='col-lg-8 offset-2  text-center'>
-    {/* {loading?<h1>Loading...</h1>: */}
+    {loading?<h1>Loading...</h1>:
     <div className='text-white'>
      <h2>{city}</h2>
       <h2>{country}</h2>
@@ -71,7 +73,7 @@ export default function Main() {
       <Link to={'/sub/'+ id} className='text-white font-weight-bold'><h3>Click to Get Next 5-days weather</h3></Link>
       
     </div>
-    {/* } */}
+    }
     </div>
 </div>
     

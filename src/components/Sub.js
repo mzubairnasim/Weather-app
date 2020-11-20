@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Sub(props) {
     const key='270afbc518467f7d9f0d40df7450164c'
@@ -19,7 +19,7 @@ export default function Sub(props) {
     return (
         <div >
        
-        {/* {loading?<h1>loading...</h1>: */}
+        {loading?<h1>loading...</h1>:
         <div className='text-center'>
              <h1>5 Days forecast</h1>
              <h1><a href='/'>back</a></h1>
@@ -38,7 +38,7 @@ export default function Sub(props) {
              </div>
             
         </div>
-        {/* } */}
+        }
         
         </div>
     )
